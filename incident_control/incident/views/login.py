@@ -49,4 +49,7 @@ def signout(request):
     logout(request)
     return redirect('home')
 
+def verification_email(request):
+    return render(request, 'verification_email.html')
+
     

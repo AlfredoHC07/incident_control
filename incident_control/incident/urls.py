@@ -8,4 +8,5 @@ urlpatterns = [
     path('dashboard/', dashboard.dashboard, name='dashboard'),
     path('logout/', login.signout, name='logout'),
     path('login/', login.signin, name='login'),
+    path('verification-email/', login.verification_email, name='verification_email'),
 ]
